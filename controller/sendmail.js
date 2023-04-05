@@ -56,7 +56,9 @@ const monitorInbox = (req,res) => {
                 `To: ${from}\n` +
                 `Subject: RE: ${subject}\n\n` +
                 `${reply}`
-              ).toString('base64')
+              ).toString('base64'),
+              addLabelIds: ['automated reply to message'],
+             removeLabelIds: ['INBOX']
             }
           }, (err, res) => {
             if (err) {
