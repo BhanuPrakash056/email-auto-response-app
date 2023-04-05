@@ -1,0 +1,31 @@
+{
+  "name": "email-auto-response-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhanuPrakash056/email-auto-response-app.git"
+  },
+  "author": "BhanuPrakas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhanuPrakash056/email-auto-response-app/issues"
+  },
+  "homepage": "https://github.com/BhanuPrakash056/email-auto-response-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "googleapis": "^114.0.0",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
