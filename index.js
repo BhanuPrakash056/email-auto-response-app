@@ -24,7 +24,7 @@ app.get('/protected', isLoggedIn, (req, res) => {
     res.send(`Hello ${req.user.displayName} <a href = '/logout'>layout</a> <a href = '/sendmail> sendmail </a>`);
   });
 
-app.get('/sendmail', monitorInbox , (req,res) => {
+app.get('/sendmail' , (req,res) => {
     res.send(`sending mail`);
 })
   app.get('/logout', (req, res) => {
